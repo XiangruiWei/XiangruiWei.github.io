@@ -7,12 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd-Year undergraduate student from Northeastern University.
-
-======
+I am a 2nd-Year undergraduate student from Northeastern University. My research interest includes machine learning, deep reinforcement learning, robotics and computer vision.
 
 
-sadasdasdasd
+
+I am very fortunate to be advised by [Prof. Miao Fang]([方淼-计算机与通信工程学院 (neuq.edu.cn)](https://jsjytx.neuq.edu.cn/info/1041/1634.htm)) from School of Computer and Communication Engineering, Northeastern University.
+
+
+
+I am currently seeking for research internship.
+
+
+
+You can find my CV here: [Xiangrui Wei's Curriculum Vitae]()
 
 Getting started
 ======
