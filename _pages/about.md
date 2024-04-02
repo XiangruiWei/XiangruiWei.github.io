@@ -15,7 +15,7 @@ I am very fortunate to be advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.c
 
 
 
-I am currently seeking for research internship about .
+**!! I am currently seeking for research internship about deep reinforcement learning and robotics. !!**
 
 
 
@@ -36,7 +36,7 @@ You can find my CV here: [Xiangrui Wei's Curriculum Vitae]().
 
 
 
-## 📚 Research Experience
+# 📚 Research Experience
 
 * 2023.05 - now,  Northeastern University
 
