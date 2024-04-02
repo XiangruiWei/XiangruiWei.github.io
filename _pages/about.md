@@ -15,7 +15,7 @@ I am very fortunate to be advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.c
 
 
 
-**!! I am currently seeking for research internship about deep reinforcement learning and robotics. !!**
+**!!! I am currently seeking for research internship about deep reinforcement learning and robotics. !!!**
 
 
 
