@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd-Year undergraduate student from Northeastern University. My research interest includes **machine learning**, **deep reinforcement learning**, **robotics** and **computer vision**.
+I am a 2nd-Year undergraduate student from Northeastern University. I am very fortunate to be advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.cn/info/1041/1634.htm) from School of Computer and Communication Engineering, Northeastern University.
 
 
 
-I am very fortunate to be advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.cn/info/1041/1634.htm) from School of Computer and Communication Engineering, Northeastern University.
+My research interest includes **machine learning**, **deep reinforcement learning**, **robotics** and **computer vision**.
 
 
 
