@@ -15,7 +15,7 @@ My research interest includes **machine learning**, **deep reinforcement learnin
 
 
 
-**!!! I am currently seeking for research internship about deep reinforcement learning and robotics. !!!**
+**!!! I am currently seeking research internship about deep reinforcement learning and robotics !!!**
 
 
 
