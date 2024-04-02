@@ -38,7 +38,7 @@ You can find my CV here: [Xiangrui Wei's Curriculum Vitae]().
 
 # 📚 Research Experience
 
-* 2023.05 - now,  Northeastern University
+* *2023.05 - now*,  Northeastern University
 
   **Laboratory of Language and Intelligent System**, advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.cn/info/1041/1634.htm)
 
