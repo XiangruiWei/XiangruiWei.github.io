@@ -19,7 +19,7 @@ My research interest includes **machine learning**, **deep reinforcement learnin
 
 
 
-You can find my CV here: [Xiangrui Wei's Curriculum Vitae]().
+You can find my CV here: [Xiangrui Wei's Curriculum Vitae](file:///C:/Users/Administrator/Desktop/海外资料模板/CV.pdf).
 
 # 📖 Education
 
