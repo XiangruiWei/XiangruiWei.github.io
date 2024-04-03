@@ -24,7 +24,7 @@ You can find my CV here: [Xiangrui Wei's Curriculum Vitae](../assets/XiangruiWei
 # 📖 Education
 
 * *2022.09 - 2026.06 (Expected)* , Undergraduate, Smart Sydney Technology College, Northeastern University, Qinhuangdao. 
-* *2022.09 - 2022.06* , Wuhan Foreign Language School, Wuhan. 
+* *2019.09 - 2022.06* , Wuhan Foreign Language School, Wuhan. 
 
 
 
