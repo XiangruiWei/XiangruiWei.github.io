@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd-Year undergraduate student from Northeastern University. I am very fortunate to be advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.cn/info/1041/1634.htm) from School of Computer and Communication Engineering, Northeastern University.
+I am a 2nd-Year undergraduate student from Northeastern University. 
 
 
 
@@ -33,16 +33,6 @@ You can find my CV here: [Xiangrui Wei's Curriculum Vitae](../assets/XiangruiWei
 * *2023.10* , **School Scholarship (top 20 % )**, Northeastern University.
 * *2023.06* , **Province Third Prize**, National English Competition for College Students.
 * *2023.05* , **Province Third Prize**, LanQiao Collegiate Programming Contest. 
-
-
-
-# 📚 Research Experience
-
-* *2023.05 - now*,  Northeastern University.
-
-  **Laboratory of Language and Intelligent System**, advised by [Prof. Miao Fang](https://jsjytx.neuq.edu.cn/info/1041/1634.htm).
-
-  **Research Topics**: computer vision, reinforcement learning.
 
 
 
