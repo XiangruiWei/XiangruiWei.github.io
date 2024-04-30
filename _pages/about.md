@@ -15,10 +15,6 @@ My research interest includes **machine learning**, **deep reinforcement learnin
 
 
 
-**!!! I am currently seeking research internship about deep reinforcement learning and robotics !!!**
-
-
-
 You can find my CV here: [Xiangrui Wei's Curriculum Vitae](../assets/XiangruiWei's CV.pdf).
 
 # 📖 Education
