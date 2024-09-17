@@ -79,59 +79,34 @@
               </ul>
             </td>
           </tr>
-          
         </table>
-        
-        <br><br>
 
-        <h2>Research</h2>
+        <br> <br> <br>
+        <h2>Education</h2>
         <hr>
-        * denotes equal contribution
-        <script >
-        function togglebib(paperid)
-        {
-            var paper = document.getElementById(paperid) ;
-            var bib = paper.getElementsByTagName('blockquote') ;
-            if (bib.length > 0) {
-                if (bib [0] .style.display == 'none') {
-                    bib [0] .style.display = 'block' ;
-                } else {
-                    bib [0] .style.display = 'none' ;
-                }
-            }
-        }
-        </script>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="0">
-          {% for rsc in site.posts %}
-          {% for cat in rsc.categories %}
-          {% if cat == 'research' %}
-          <tr {% if rsc.gif or rsc.video %}onmouseout="{{rsc.abbr}}_stop()" onmouseover="{{rsc.abbr}}_start()"{% endif %}>
-            <td style="padding:0px 0px;width:30%;vertical-align:middle;min-width:120px">
-              
-              <div class="one" style="width:100%; height:auto; max-width:100%">
-                <div class="two" id='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
-                  <a href="{{rsc.webpage}}">
-                    <img src='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
-                  </a>
-                </div>
-                {% if rsc.gif %}
-                <img src='{{rsc.gif}}' style="width:100%; height:auto; max-width:100%">
-                {% elsif rsc.video %}
-                <video src='{{rsc.video}}' style="width:100%; height:auto; max-width:100%" autoplay muted loop></video>
-                {% else %}
-                <img src='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
-                {% endif %}
-              </div>
-              <script type="text/javascript">
-                function {{rsc.abbr}}_start() {
-                  document.getElementById('{{rsc.image}}').style.opacity = "0";
-                }
+        <table border="0" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:20px 0px;width:30%;vertical-align:middle;min-width:120px">
+              <h3>Northeastern University</h3>
+              <p>Bachelor of Science in Computer Science</p>
+              <p>September 2022 - Expected May 2026</p>
+              <p>GPA: 3.9/5.0</p>
+              <p>Ranked 11th out of 116 students</p>
+            </td>
+            <td style="padding:0px 0px 0px 40px;width:70%;vertical-align:middle">
+              <h3>Additional Education Information</h3>
+              <ul>
+                <li>Relevant Courses: Deep Learning for Computer Vision, Deep Reinforcement Learning</li>
+                <li>Participated in online courses from Stanford and UC Berkeley</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
 
-                function {{rsc.abbr}}_stop() {
-                  document.getElementById('{{rsc.image}}').style.opacity = "1";
-                }
-                nlt_stop()
-              </script>
+        <br> <br> <br> <br> <hr> <br>
+        
+
+
               <!-- {% if rsc.gif %}
               <img src="{{rsc.image}}" onmouseover="src='{{rsc.gif}}'" onmouseout="src='{{rsc.image}}'" style="width:100%; height:auto; max-width:100%"/>
               {% else %}
