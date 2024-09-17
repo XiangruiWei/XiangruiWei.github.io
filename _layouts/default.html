@@ -79,6 +79,7 @@
               </ul>
             </td>
           </tr>
+          
         </table>
 
         <br> <br> <br>
@@ -102,11 +103,57 @@
             </td>
           </tr>
         </table>
-
-        <br> <br> <br> <br> <hr> <br>
         
+        <br><br>
 
+        <h2>Research</h2>
+        <hr>
+        * denotes equal contribution
+        <script >
+        function togglebib(paperid)
+        {
+            var paper = document.getElementById(paperid) ;
+            var bib = paper.getElementsByTagName('blockquote') ;
+            if (bib.length > 0) {
+                if (bib [0] .style.display == 'none') {
+                    bib [0] .style.display = 'block' ;
+                } else {
+                    bib [0] .style.display = 'none' ;
+                }
+            }
+        }
+        </script>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" border="0">
+          {% for rsc in site.posts %}
+          {% for cat in rsc.categories %}
+          {% if cat == 'research' %}
+          <tr {% if rsc.gif or rsc.video %}onmouseout="{{rsc.abbr}}_stop()" onmouseover="{{rsc.abbr}}_start()"{% endif %}>
+            <td style="padding:0px 0px;width:30%;vertical-align:middle;min-width:120px">
+              
+              <div class="one" style="width:100%; height:auto; max-width:100%">
+                <div class="two" id='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
+                  <a href="{{rsc.webpage}}">
+                    <img src='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
+                  </a>
+                </div>
+                {% if rsc.gif %}
+                <img src='{{rsc.gif}}' style="width:100%; height:auto; max-width:100%">
+                {% elsif rsc.video %}
+                <video src='{{rsc.video}}' style="width:100%; height:auto; max-width:100%" autoplay muted loop></video>
+                {% else %}
+                <img src='{{rsc.image}}' style="width:100%; height:auto; max-width:100%">
+                {% endif %}
+              </div>
+              <script type="text/javascript">
+                function {{rsc.abbr}}_start() {
+                  document.getElementById('{{rsc.image}}').style.opacity = "0";
+                }
 
+                function {{rsc.abbr}}_stop() {
+                  document.getElementById('{{rsc.image}}').style.opacity = "1";
+                }
+                nlt_stop()
+              </script>
               <!-- {% if rsc.gif %}
               <img src="{{rsc.image}}" onmouseover="src='{{rsc.gif}}'" onmouseout="src='{{rsc.image}}'" style="width:100%; height:auto; max-width:100%"/>
               {% else %}
